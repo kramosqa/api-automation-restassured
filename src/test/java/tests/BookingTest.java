@@ -15,6 +15,7 @@ import pojo.Booking;
 public class BookingTest {
 
     private static final Logger logger = LoggerFactory.getLogger(BookingTest.class);
+    //This is a comment from the remote Repo
 
     static BookingAPI bookingAPI;
     static int bookingId;
