@@ -19,11 +19,8 @@ public class BookingAPI extends APIBase {
     private static final String AUTH_ENDPOINT = "/auth";
     private static final String BOOKING_ENDPOINT = "/booking";
 
-    private String token;
-
     public BookingAPI() {
         super(BASE_URL);
-        token = getToken();
     }
 
     public Response createBooking(Booking booking){
